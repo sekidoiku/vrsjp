@@ -5,10 +5,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="scorecovid",
-    version="0.0.6",
-    author="yoshiyasu takefuji",
-    author_email="takefuji@keio.jp",
-    description="A package for scoring policies of covid-19",
+    version="0.0.1",
+    author="Iku Sekido",
+    author_email="s2022021@stu.musashino-u.ac.jp",
+    description="A package for scoring number of vaccinated people in Japan,
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ytakefuji/score-covid-19-policy",
