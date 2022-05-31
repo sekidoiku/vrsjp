@@ -11,9 +11,9 @@ setuptools.setup(
     description="A package for scoring number of vaccinated people in Japan,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ytakefuji/score-covid-19-policy",
+    url="https://github.com/sekidoiku/vrsjp",
     project_urls={
-        "Bug Tracker": "https://github.com/ytakefuji/score-covid-19-policy",
+        "vrsjp": "https://github.com/sekidoiku/vrsjp",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -21,12 +21,12 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "src"},
-    py_modules=['scorecovid'],
+    py_modules=['vrsjp'],
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.6",
     entry_points = {
         'console_scripts': [
-            'scorecovid = scorecovid:main'
+            'vrsjp = vrsjp:main'
         ]
     },
 )
